@@ -459,42 +459,6 @@ ul {
   gap: 2rem;
 }
 
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .services {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
-  
-  .heading h2 {
-    font-size: 20px;
-  }
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .services {
-    width: 100%;
-  }
-  
-  
-  .btn {
-    width: 100%;
-  }
-  
-  
-  .header-right {
-    display: none;
-  }
-  
- 
-  .menu-icon {
-    display: block;
-  }
-  
-  
-}
 
 /*stylesheet continue*/
 .btn-wrapper {
