@@ -13,6 +13,38 @@
 </head>
 
 <body>
+    <header id="bg-header">
+        <div class="bg-header container flex-center_between">
+            <div class="header-title">
+                <h1>Desaign</h1>
+            </div>
+            <div class="header-list">
+                <ul>
+                    <li>Furniture</li>
+                    <li>Shop</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <img class="img1" src="images/tas2.png" alt="">
+        </div>
+    </header>
+    <div class="top-wrapper">
+        <div class="container text">
+            <h1>
+                Make Your Interior More
+                <br>
+                Minimalistic & Modern
+            </h1>
+            <p>
+                Turn your room with Desaign into a lot minimalist
+                <br>
+                and modern with ease and speed
+            </p>
+            <input type="search" placeholder="Search Furniture">
+        </div>
+        <img src="images/hero.jpeg" alt="">
+    </div>
     <main>
         <div class="content_furniture">
             <div class="advertise-wrapper">
@@ -53,6 +85,18 @@
         </div>
         </div>
     </main>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("bg-header").style.background = "rgba(0, 0, 0, 0.8";
+            } else {
+                document.getElementById("bg-header").style.background = "none";
+            }
+        }
+    </script>
   
 </body>
 
