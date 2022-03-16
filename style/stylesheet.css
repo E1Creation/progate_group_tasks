@@ -458,3 +458,134 @@ ul {
   display: flex;
   gap: 2rem;
 }
+
+
+/*stylesheet continue*/
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+
+  display: none;
+}
+
+.service-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h4 {
+  font-weight: normal;
+}
+
+.service {
+  float: left;
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.service-icon {
+  
+}
+
+.service-icon p {
+
+  color: black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: darkorange;
+  cursor: pointer;
+  box-shadow: 0 7px brown;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.product {
+  width: 23%;
+  margin-right: 20px;
+  border-radius: 20px;
+  border:  3px solid orange;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+}
+
+.container-services {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto 100px auto;
+}
